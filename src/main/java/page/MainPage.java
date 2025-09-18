@@ -16,7 +16,7 @@ public class MainPage {
 // Ссылка на главную страницу Самокат
     public static final String SCOOTERURL = "https://qa-scooter.praktikum-services.ru/";
 // Ссылка на главную страницу Яндекс
-    public final String YANDEXURL = "https://yandex.ru";
+    public static final String YANDEXURL = "https://yandex.ru";
 
 // Кнопка принятия куки
     private By cookiesBtn = By.id("rcc-confirm-button");

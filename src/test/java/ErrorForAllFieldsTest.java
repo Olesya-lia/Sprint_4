@@ -20,7 +20,7 @@ public class ErrorForAllFieldsTest extends BaseTest {
             this.name = name;
         }
 
-        @Parameterized.Parameters
+        @Parameterized.Parameters (name = "Неверный ввод имени: {0}")
         public static Object[] setNameData() {
             return new Object[][]{
                     // Невалидные данные для проверки
@@ -52,7 +52,7 @@ public class ErrorForAllFieldsTest extends BaseTest {
             this.surname = surname;
         }
 
-        @Parameterized.Parameters
+        @Parameterized.Parameters (name = "Неверный ввод фамилии: {0}")
         public static Object[] setSurnameData() {
             return new Object[][]{
                     // Невалидные данные
@@ -84,7 +84,7 @@ public class ErrorForAllFieldsTest extends BaseTest {
             this.address = address;
         }
 
-        @Parameterized.Parameters
+        @Parameterized.Parameters(name = "Неверный ввод адреса: {0}")
         public static Object[] setAddressData() {
             return new Object[][]{
                     // Невалидные данные
@@ -116,7 +116,7 @@ public class ErrorForAllFieldsTest extends BaseTest {
             this.metro = metro;
         }
 
-        @Parameterized.Parameters
+        @Parameterized.Parameters(name = "Неверный ввод станции метро: {0}")
         public static Object[] setStationMetroData() {
             return new Object[][]{
                     // Невалидные данные
@@ -152,7 +152,7 @@ public class ErrorForAllFieldsTest extends BaseTest {
             this.phone = phone;
         }
 
-        @Parameterized.Parameters
+        @Parameterized.Parameters(name = "Неверный ввод номера телефона: {0}")
         public static Object[] setPhoneData() {
             return new Object[][]{
                     // Невалидные данные

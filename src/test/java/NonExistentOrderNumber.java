@@ -15,7 +15,7 @@ public class NonExistentOrderNumber extends BaseTest{
         this.orderNumber = orderNumber;
     }
 
-    @Parameterized.Parameters()
+    @Parameterized.Parameters(name = "Неверный номера заказа: {0}")
     public static Object [] setNumberData(){
         return new Object[][]{
                 {"32"},

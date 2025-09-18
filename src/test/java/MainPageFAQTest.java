@@ -22,7 +22,7 @@ public class MainPageFAQTest extends BaseTest {
     }
 
     // Параметры подставлены из константы для параметризованного теста, упрощен с помощью цикла
-    @Parameterized.Parameters()
+    @Parameterized.Parameters(name = "Вопросы о важном. Проверяемый элемент: {1}, соответствие вопроса: {2}, соответствие ответа: {3}")
     public static Object[][] setTestData() {
         Object[][] data = new Object[8][3]; // создали массив 8 проверок по 3 параметра
         for (int i = 0; i < 8; i++) {

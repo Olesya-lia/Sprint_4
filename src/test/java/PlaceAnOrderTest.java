@@ -35,7 +35,7 @@ public class PlaceAnOrderTest extends BaseTest {
         this.useHeaderBtn = useHeaderBtn;
     }
 
-    @Parameterized.Parameters
+    @Parameterized.Parameters(name = "Оформление заказа для {0} {1}")
     public static Object[] setOrderData() {
         return new Object[][]{
                 {"Иван", "Иванов", "Кутузова, д. 6", "Лубянка", "89889988899",
